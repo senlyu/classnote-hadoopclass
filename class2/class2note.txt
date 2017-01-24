@@ -1,0 +1,5 @@
+# use to load data from mysql database
+sqoop --connect jdbc:mysql://localhost/dualcore --username training -P --warehouse-dir /userdata --table customers
+
+
+
